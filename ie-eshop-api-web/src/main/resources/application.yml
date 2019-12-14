@@ -1,3 +1,9 @@
 server:
   servlet:
     context-path: "/"
+
+spring:
+  data:
+    mongodb:
+      database: eshop_db
+      uri: mongodb://localhost/eshop_db
